@@ -1,0 +1,323 @@
+{
+  "header": {
+    "logo": {
+      "src": "/logo.png",
+      "alt": "logo luiz"
+    },
+    "navigation": [
+      {
+        "label": "Inicio",
+        "url": "#inicio"
+      },
+      {
+        "label": "Portfólio",
+        "url": "#portfolio"
+      },
+      {
+        "label": "Techs",
+        "url": "#techs"
+      },
+      {
+        "label": "Contato",
+        "url": "#contato"
+      }
+    ]
+  },
+  "document": {
+    "src": "/Atualizado dev 2023.pdf",
+    "label": "Baixar CV"
+  },
+  "page": {
+    "saudações": {
+      "title": "Luiz Carlos Júnior",
+      "sub_title": "Front-End developer",
+      "about_me": "No mercado há 7 meses profissionalmente, entregando ótimos resultados e trabalhando com techs atuais de mercado",
+      "photo": {
+        "src": "/saudações/luiz-junior.png",
+        "alt": "imagem do luiz"
+      },
+      "photo_mobile": {
+        "src": "/saudações/luiz-junior-mobile.png",
+        "alt": "imagem do luiz mobile"
+      }
+    },
+    "portfolio": {
+      "photo": {
+        "src": "/porfólio/luiz.png",
+        "alt": "imagem luiz"
+      },
+      "projects": [
+        {
+          "title": "Projeto em execução / Front-End dev.",
+          "sub_title": "Design por Agência ADE!",
+          "url": "",
+          "photo": {
+            "src": "",
+            "alt": ""
+          },
+          "techs": [
+            {
+              "src": "/tecnologias/nextjs.png",
+              "alt": "logo next"
+            },
+            {
+              "src": "/tecnologias/typescript.png",
+              "alt": "logo typescript"
+            },
+            {
+              "src": "/tecnologias/tailwind.png",
+              "alt": "logo tailwind"
+            },
+            {
+              "src": "/tecnologias/strapi.png",
+              "alt": "logo strapi"
+            }
+          ]
+        },
+        {
+          "title": "Thor Watanabe / Front-End dev.",
+          "sub_title": "Design por Agência ADE!",
+          "url": "https://thor.watanabe.com.br/",
+          "photo": {
+            "src": "/porfólio/Thor.png",
+            "alt": ""
+          },
+          "techs": [
+            {
+              "src": "/tecnologias/nextjs.png",
+              "alt": "logo next"
+            },
+            {
+              "src": "/tecnologias/typescript.png",
+              "alt": "logo typescript"
+            },
+            {
+              "src": "/tecnologias/tailwind.png",
+              "alt": "logo tailwind"
+            },
+            {
+              "src": "/tecnologias/strapi.png",
+              "alt": "logo strapi"
+            }
+          ]
+        },
+        {
+          "title": "Oton Engenharia / Front-End dev.",
+          "sub_title": "Design por Agência ADE!",
+          "url": "",
+          "photo": {
+            "src": "/porfólio/oton.png",
+            "alt": ""
+          },
+          "techs": [
+            {
+              "src": "/tecnologias/nextjs.png",
+              "alt": "logo next"
+            },
+            {
+              "src": "/tecnologias/typescript.png",
+              "alt": "logo typescript"
+            },
+            {
+              "src": "/tecnologias/tailwind.png",
+              "alt": "logo tailwind"
+            },
+            {
+              "src": "/tecnologias/wordpress.png",
+              "alt": "logo wordpress"
+            }
+          ]
+        },
+        {
+          "title": "Terra Solo / Front-End dev.",
+          "sub_title": "Design por Agência ADE!",
+          "url": "",
+          "photo": {
+            "src": "/porfólio/terra solo.png",
+            "alt": ""
+          },
+          "techs": [
+            {
+              "src": "/tecnologias/nextjs.png",
+              "alt": "logo next"
+            },
+            {
+              "src": "/tecnologias/tailwind.png",
+              "alt": "logo tailwind"
+            }
+          ]
+        },
+        {
+          "title": "Essenza / Front-End dev.",
+          "sub_title": "Design por Agência ADE!",
+          "url": "",
+          "photo": {
+            "src": "/porfólio/Essenza.png",
+            "alt": ""
+          },
+          "techs": [
+            {
+              "src": "/tecnologias/nextjs.png",
+              "alt": "logo next"
+            },
+            {
+              "src": "/tecnologias/tailwind.png",
+              "alt": "logo tailwind"
+            }
+          ]
+        },
+        
+        {
+          "title": "Gui Ertel / Front-End dev.",
+          "sub_title": "Design por Guilherme Ertel",
+          "url": "",
+          "photo": {
+            "src": "/porfólio/Gui Ertel.png",
+            "alt": ""
+          },
+          "techs": [
+            {
+              "src": "/tecnologias/nextjs.png",
+              "alt": "logo next"
+            },
+            {
+              "src": "/tecnologias/tailwind.png",
+              "alt": "logo tailwind"
+            }
+          ]
+        },
+        {
+          "title": "Brigata Pizzaria / Front-End dev.",
+          "sub_title": "Design por Agência ADE!",
+          "url": "",
+          "photo": {
+            "src": "/porfólio/Brigata.png",
+            "alt": ""
+          },
+          "techs": [
+            {
+              "src": "/tecnologias/nextjs.png",
+              "alt": "logo next"
+            },
+            {
+              "src": "/tecnologias/tailwind.png",
+              "alt": "logo tailwind"
+            },
+            {
+              "src": "/tecnologias/wordpress.png",
+              "alt": "logo wordpress"
+            }
+          ]
+        },
+        {
+          "title": "Procure Imovel / Front-End dev.",
+          "sub_title": "Design por Agência ADE!",
+          "url": "",
+          "photo": {
+            "src": "/porfólio/procure-imovel.png",
+            "alt": ""
+          },
+          "techs": [
+            {
+              "src": "/tecnologias/react.png",
+              "alt": "logo react"
+            },
+            {
+              "src": "/tecnologias/vite.png",
+              "alt": "logo vite"
+            },
+            {
+              "src": "/tecnologias/tailwind.png",
+              "alt": "logo tailwind"
+            }
+          ]
+        }
+      ]
+    },
+    "tecnologias": {
+      "title": "Ferramentas que utilizo eu meu dia a dia:",
+      "photo": {
+        "src": "/tecnologias/photo.png",
+        "alt": "imagem luiz programando"
+      },
+      "logo": [
+        {
+          "src": "/tecnologias/nextjs.png",
+          "alt": "logo nextjs"
+        },
+        {
+          "src": "/tecnologias/typescript.png",
+          "alt": "logo typescript"
+        },
+        {
+          "src": "/tecnologias/tailwind.png",
+          "alt": "logo tailwind"
+        },
+        {
+          "src": "/tecnologias/strapi.png",
+          "alt": "logo strapi"
+        },
+        {
+          "src": "/tecnologias/node.png",
+          "alt": "logo node"
+        },
+        {
+          "src": "/tecnologias/wordpress.png",
+          "alt": "logo wordpress"
+        },
+        {
+          "src": "/tecnologias/mysql.png",
+          "alt": "logo mysql"
+        },
+        {
+          "src": "/tecnologias/gitlab.png",
+          "alt": "logo gitlab"
+        },
+        {
+          "src": "/tecnologias/figma.png",
+          "alt": "logo figma"
+        }
+      ]
+    },
+    "novidades": {
+      "text": "Mais novidades em breve...",
+      "photo": {
+        "src": "/novidade/photo.png",
+        "alt": "imagem do luiz"
+      }
+    },
+    "contact": {
+      "text_button": " Contato",
+      "title": "Vamos conversar, Ficarei feliz em ajudar :)"
+    }
+  },
+  "footer": {
+    "icon": [
+      {
+        "link": "",
+        "src": "/icons-footer/whats.png",
+        "alt": "icon whatsapp"
+      },
+      {
+        "link": "",
+        "src": "/icons-footer/insta.png",
+        "alt": "icon insta"
+      },
+      {
+        "link": "https://www.linkedin.com/in/luiz-da-cunha-jr/",
+        "src": "/icons-footer/linkedin.png",
+        "alt": "icon linkedin"
+      },
+      {
+        "link": "",
+        "src": "/icons-footer/git.png",
+        "alt": "icon git"
+      }
+    ],
+    "logo": {
+      "src": "/icons-footer/logo-cor.png",
+      "alt": "logo luiz"
+    },
+    "copyright": "Copyright © Luiz Carlos Junior ·"
+  }
+}

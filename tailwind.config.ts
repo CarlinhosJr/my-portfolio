@@ -8,11 +8,23 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      screens: {
+       'sm': '375px',
+       '3xl': '1905px',
+       
+     },
+
+      keyframes: {
+        heartbeat: {
+          ' 0%, 100%, 40%, 60% ': { transform: 'scale(1)' },
+          '20%, 80%': { transform: 'scale(1.3)' },
+        }
       },
+  
+      animation:{
+        heartbeat: "heartbeat 2s ease-in-out infinite"
+      }
+
     },
   },
   plugins: [],
