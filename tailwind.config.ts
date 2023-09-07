@@ -27,7 +27,7 @@ const config: Config = {
       },
   
       animation:{
-        heartbeat: "heartbeat 5s ease-in-out infinite",
+        heartbeat: "heartbeat 2s ease-in-out infinite",
         pingarrow: "pingarrow 1s ease-in-out infinite"
       }
 
