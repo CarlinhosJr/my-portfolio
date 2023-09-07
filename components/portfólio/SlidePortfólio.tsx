@@ -1,7 +1,7 @@
 "use client";
 
 //api
-import data from "../api/data.json";
+import data from "../../api/data.json";
 
 import React, { useState, useEffect } from "react";
 
@@ -43,7 +43,7 @@ export default function SlidePortfólio() {
 
   return (
     <div
-      className={`screen h-[90%] 2xl:h-[80%]  flex flex-col justify-between 2xl:justify-around my-auto`}
+      className={`screen h-[90%] 2xl:h-[80%] hidden lg:flex flex-col justify-between 2xl:justify-around my-auto`}
     >
       {content.projects
         .slice(startIndex, startIndex + numImagesToShow)
@@ -53,7 +53,9 @@ export default function SlidePortfólio() {
             className={`flex items-end  gap-10 ${
               index !== 0 ? "transition-opacity ease-in-out duration-300" : ""
             }`}
+
           >
+            {/* IMAGE AND INFO PORTFÓLIO */}
             <div className="text-[#D9D9D9] ">
               <div className="pl-2">
                 <p className="font-bold">{slide.title}</p>
@@ -78,13 +80,15 @@ export default function SlidePortfólio() {
                 </div>
               </div>
             </div>
-            <div className="flex items-center">
+
+            {/* LOGOS TECHS */}
+            <div className="flex items-center gap-10">
               <div className="w-[2px] h-[166px] bg-[#D9D9D9]" />
-              <div className="flex items-center gap-8">
+              <div className="grid grid-cols-2 xl:flex items-center gap-8">
                 {slide.techs.map((tech) => (
                   <div
                     key={tech.alt}
-                    className={`relative w-[70px] h-[30px] md:w-[140px] md:h-[40px] grayscale hover:grayscale-0 ease-linear duration-150 brightness-200 hover:brightness-100 cursor-pointer`}
+                    className={`relative w-[70px] h-[30px] md:w-[140px] md:h-[40px] xl:grayscale hover:grayscale-0 ease-linear duration-150 xl:brightness-200 hover:brightness-100 cursor-pointer`}
                   >
                     <Image
                       src={tech.src}
@@ -99,6 +103,8 @@ export default function SlidePortfólio() {
             </div>
           </div>
         ))}
+
+      {/* BUTTONS TO CHANGE */}
       <div className="flex justify-end gap-4  text-[#D9D9D9]">
         <div>Clique para navegar</div>
         <div className="text-2xl">

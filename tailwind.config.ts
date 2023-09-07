@@ -18,11 +18,17 @@ const config: Config = {
         heartbeat: {
           ' 0%, 100%, 40%, 60% ': { transform: 'scale(1)' },
           '20%, 80%': { transform: 'scale(1.3)' },
+        },
+
+        pingarrow:{
+         ' 0%, 100%': {transform: 'translateX(0)'},
+          '50%':{transform: 'translateX(10px)'}
         }
       },
   
       animation:{
-        heartbeat: "heartbeat 2s ease-in-out infinite"
+        heartbeat: "heartbeat 5s ease-in-out infinite",
+        pingarrow: "pingarrow 1s ease-in-out infinite"
       }
 
     },

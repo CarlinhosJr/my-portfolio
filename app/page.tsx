@@ -6,7 +6,8 @@ import ButtonContact from "@/components/ButtonContact";
 import { BsSendFill } from "react-icons/bs";
 import Link from "next/link";
 import DownloadCV from "@/components/DownloadCV";
-import SlidePortfólio from "@/components/SlidePortfólio";
+import SlidePortfólio from "@/components/portfólio/SlidePortfólio";
+import SlideMobile from "@/components/portfólio/SlideMobile";
 
 export default function Home() {
   const { saudacoes, portfolio, tecnologias, novidades, contato } =
@@ -55,12 +56,13 @@ export default function Home() {
       </section>
 
 
-      <section className="relative my-20 h-screen flex ">
+      <section className="relative my-20 h-[60dvh] lg:h-[80vh] xl:h-screen flex ">
         <div className="absolute  w-full h-full -z-10">
           <Image src={portfolio.photo.src} alt={portfolio.photo.alt} fill className="" />
         </div>
 
         <SlidePortfólio/>
+        <SlideMobile/>
       </section>
 
       <section
@@ -75,7 +77,7 @@ export default function Home() {
             {tecnologias.logo.map((logo) => (
               <div
                 key={logo.alt}
-                className=" relative w-[70px] h-[30px] md:w-[140px] md:h-[40px] grayscale hover:grayscale-0 ease-linear duration-150 brightness-200 hover:brightness-100 cursor-pointer"
+                className=" relative w-[70px] h-[30px] md:w-[140px] md:h-[40px] xl:grayscale hover:grayscale-0 ease-linear duration-150 xl:brightness-200 hover:brightness-100 cursor-pointer"
               >
                 <Image
                   src={logo.src}

@@ -105,7 +105,7 @@ export default function Header() {
 
       {/* MOBILE */}
       <nav
-        className={`w-full h-full py-20 lg:hidden  fixed  bg-black/90 text-white  font-semibold z-40 ease-linear duration-500  ${
+        className={`w-full h-full py-20 lg:hidden  fixed top-0 bg-black/90 text-white  font-semibold z-40 ease-linear duration-500  ${
           open ? "translate-x-0" : "translate-x-[-120%]"
         } `}
       >

@@ -1,5 +1,6 @@
 // para todas as fotos
 interface MediaAttributes {
+  src_mobile:string
   src: string;
   alt: string;
 }

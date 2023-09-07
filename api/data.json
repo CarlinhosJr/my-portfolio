@@ -48,139 +48,26 @@
       },
       "projects": [
         {
-          "title": "Projeto em execução / Front-End dev.",
+          "title": "Procure Imovel / Front-End dev.",
           "sub_title": "Design por Agência ADE!",
           "url": "",
           "photo": {
-            "src": "",
+            "src": "/porfólio/procure-imovel.png",
             "alt": ""
           },
           "techs": [
             {
-              "src": "/tecnologias/nextjs.png",
-              "alt": "logo next"
+              "src_mobile": "/porfólio/icons-mobile/react.png",
+              "src": "/tecnologias/react.png",
+              "alt": "logo react"
             },
             {
-              "src": "/tecnologias/typescript.png",
-              "alt": "logo typescript"
+              "src_mobile": "/porfólio/icons-mobile/vite.png",
+              "src": "/tecnologias/vite.png",
+              "alt": "logo vite"
             },
             {
-              "src": "/tecnologias/tailwind.png",
-              "alt": "logo tailwind"
-            },
-            {
-              "src": "/tecnologias/strapi.png",
-              "alt": "logo strapi"
-            }
-          ]
-        },
-        {
-          "title": "Thor Watanabe / Front-End dev.",
-          "sub_title": "Design por Agência ADE!",
-          "url": "https://thor.watanabe.com.br/",
-          "photo": {
-            "src": "/porfólio/Thor.png",
-            "alt": ""
-          },
-          "techs": [
-            {
-              "src": "/tecnologias/nextjs.png",
-              "alt": "logo next"
-            },
-            {
-              "src": "/tecnologias/typescript.png",
-              "alt": "logo typescript"
-            },
-            {
-              "src": "/tecnologias/tailwind.png",
-              "alt": "logo tailwind"
-            },
-            {
-              "src": "/tecnologias/strapi.png",
-              "alt": "logo strapi"
-            }
-          ]
-        },
-        {
-          "title": "Oton Engenharia / Front-End dev.",
-          "sub_title": "Design por Agência ADE!",
-          "url": "",
-          "photo": {
-            "src": "/porfólio/oton.png",
-            "alt": ""
-          },
-          "techs": [
-            {
-              "src": "/tecnologias/nextjs.png",
-              "alt": "logo next"
-            },
-            {
-              "src": "/tecnologias/typescript.png",
-              "alt": "logo typescript"
-            },
-            {
-              "src": "/tecnologias/tailwind.png",
-              "alt": "logo tailwind"
-            },
-            {
-              "src": "/tecnologias/wordpress.png",
-              "alt": "logo wordpress"
-            }
-          ]
-        },
-        {
-          "title": "Terra Solo / Front-End dev.",
-          "sub_title": "Design por Agência ADE!",
-          "url": "",
-          "photo": {
-            "src": "/porfólio/terra solo.png",
-            "alt": ""
-          },
-          "techs": [
-            {
-              "src": "/tecnologias/nextjs.png",
-              "alt": "logo next"
-            },
-            {
-              "src": "/tecnologias/tailwind.png",
-              "alt": "logo tailwind"
-            }
-          ]
-        },
-        {
-          "title": "Essenza / Front-End dev.",
-          "sub_title": "Design por Agência ADE!",
-          "url": "",
-          "photo": {
-            "src": "/porfólio/Essenza.png",
-            "alt": ""
-          },
-          "techs": [
-            {
-              "src": "/tecnologias/nextjs.png",
-              "alt": "logo next"
-            },
-            {
-              "src": "/tecnologias/tailwind.png",
-              "alt": "logo tailwind"
-            }
-          ]
-        },
-        
-        {
-          "title": "Gui Ertel / Front-End dev.",
-          "sub_title": "Design por Guilherme Ertel",
-          "url": "",
-          "photo": {
-            "src": "/porfólio/Gui Ertel.png",
-            "alt": ""
-          },
-          "techs": [
-            {
-              "src": "/tecnologias/nextjs.png",
-              "alt": "logo next"
-            },
-            {
+              "src_mobile": "/porfólio/icons-mobile/tw.png",
               "src": "/tecnologias/tailwind.png",
               "alt": "logo tailwind"
             }
@@ -196,39 +83,177 @@
           },
           "techs": [
             {
+              "src_mobile": "/porfólio/icons-mobile/nextjs.png",
               "src": "/tecnologias/nextjs.png",
               "alt": "logo next"
             },
             {
+              "src_mobile": "/porfólio/icons-mobile/tw.png",
               "src": "/tecnologias/tailwind.png",
               "alt": "logo tailwind"
             },
             {
+              "src_mobile": "/porfólio/icons-mobile/wordpress.png",
               "src": "/tecnologias/wordpress.png",
               "alt": "logo wordpress"
             }
           ]
         },
         {
-          "title": "Procure Imovel / Front-End dev.",
-          "sub_title": "Design por Agência ADE!",
+          "title": "Gui Ertel / Front-End dev.",
+          "sub_title": "Design por Guilherme Ertel",
           "url": "",
           "photo": {
-            "src": "/porfólio/procure-imovel.png",
+            "src": "/porfólio/Gui Ertel.png",
             "alt": ""
           },
           "techs": [
             {
-              "src": "/tecnologias/react.png",
-              "alt": "logo react"
+              "src_mobile": "/porfólio/icons-mobile/nextjs.png",
+              "src": "/tecnologias/nextjs.png",
+              "alt": "logo next"
             },
             {
-              "src": "/tecnologias/vite.png",
-              "alt": "logo vite"
-            },
-            {
+              "src_mobile": "/porfólio/icons-mobile/tw.png",
               "src": "/tecnologias/tailwind.png",
               "alt": "logo tailwind"
+            }
+          ]
+        },
+        {
+          "title": "Essenza / Front-End dev.",
+          "sub_title": "Design por Agência ADE!",
+          "url": "",
+          "photo": {
+            "src": "/porfólio/Essenza.png",
+            "alt": ""
+          },
+          "techs": [
+            {
+              "src_mobile": "/porfólio/icons-mobile/nextjs.png",
+              "src": "/tecnologias/nextjs.png",
+              "alt": "logo next"
+            },
+            {
+              "src_mobile": "/porfólio/icons-mobile/tw.png",
+              "src": "/tecnologias/tailwind.png",
+              "alt": "logo tailwind"
+            }
+          ]
+        },
+        {
+          "title": "Terra Solo / Front-End dev.",
+          "sub_title": "Design por Agência ADE!",
+          "url": "",
+          "photo": {
+            "src": "/porfólio/terra solo.png",
+            "alt": ""
+          },
+          "techs": [
+            {
+              "src_mobile": "/porfólio/icons-mobile/nextjs.png",
+              "src": "/tecnologias/nextjs.png",
+              "alt": "logo next"
+            },
+            {
+              "src_mobile": "/porfólio/icons-mobile/tw.png",
+              "src": "/tecnologias/tailwind.png",
+              "alt": "logo tailwind"
+            }
+          ]
+        },
+        
+        
+        {
+          "title": "Oton Engenharia / Front-End dev.",
+          "sub_title": "Design por Agência ADE!",
+          "url": "",
+          "photo": {
+            "src": "/porfólio/oton.png",
+            "alt": ""
+          },
+          "techs": [
+            {
+              "src_mobile": "/porfólio/icons-mobile/nextjs.png",
+              "src": "/tecnologias/nextjs.png",
+              "alt": "logo next"
+            },
+            {
+              "src_mobile": "/porfólio/icons-mobile/TS.png",
+              "src": "/tecnologias/typescript.png",
+              "alt": "logo typescript"
+            },
+            {
+              "src_mobile": "/porfólio/icons-mobile/tw.png",
+              "src": "/tecnologias/tailwind.png",
+              "alt": "logo tailwind"
+            },
+            {
+              "src_mobile": "/porfólio/icons-mobile/wordpress.png",
+              "src": "/tecnologias/wordpress.png",
+              "alt": "logo wordpress"
+            }
+          ]
+        },
+        {
+          "title": "Thor Watanabe / Front-End dev.",
+          "sub_title": "Design por Agência ADE!",
+          "url": "https://thor.watanabe.com.br/",
+          "photo": {
+            "src": "/porfólio/Thor.png",
+            "alt": ""
+          },
+          "techs": [
+            {
+              "src_mobile": "/porfólio/icons-mobile/nextjs.png",
+              "src": "/tecnologias/nextjs.png",
+              "alt": "logo next"
+            },
+            {
+              "src_mobile": "/porfólio/icons-mobile/TS.png",
+              "src": "/tecnologias/typescript.png",
+              "alt": "logo typescript"
+            },
+            {
+              "src_mobile": "/porfólio/icons-mobile/tw.png",
+              "src": "/tecnologias/tailwind.png",
+              "alt": "logo tailwind"
+            },
+            {
+              "src_mobile": "/porfólio/icons-mobile/strapi.png",
+              "src": "/tecnologias/strapi.png",
+              "alt": "logo strapi"
+            }
+          ]
+        },
+        {
+          "title": "Projeto em execução / Front-End dev.",
+          "sub_title": "Design by Agência ADE!",
+          "url": "",
+          "photo": {
+            "src": "",
+            "alt": ""
+          },
+          "techs": [
+            { 
+              "src_mobile": "/porfólio/icons-mobile/nextjs.png",
+              "src": "/tecnologias/nextjs.png",
+              "alt": "logo next"
+            },
+            {
+              "src_mobile": "/porfólio/icons-mobile/TS.png",
+              "src": "/tecnologias/typescript.png",
+              "alt": "logo typescript"
+            },
+            {
+              "src_mobile": "/porfólio/icons-mobile/tw.png",
+              "src": "/tecnologias/tailwind.png",
+              "alt": "logo tailwind"
+            },
+            {
+              "src_mobile": "/porfólio/icons-mobile/strapi.png",
+              "src": "/tecnologias/strapi.png",
+              "alt": "logo strapi"
             }
           ]
         }
