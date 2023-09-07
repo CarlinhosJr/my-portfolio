@@ -55,7 +55,7 @@ export default function SlidePortfólio() {
             <div className="text-[#D9D9D9] ">
               <div className="pl-2">
                 <p className="font-bold">{slide.title}</p>
-                <p className="text-sm font-light">{slide.sub_title}</p>
+                <p className="text-sm font-light">{slide.design.by} <Link href={slide.design.url} className="hover:text-zinc-400 ease-linear duration-150">{slide.design.property}</Link></p>
               </div>
               <div
                 className={`relative w-[362px] h-[166px] mt-3 group overflow-hidden rounded-2xl flex items-center justify-center cursor-pointer`}
@@ -68,12 +68,18 @@ export default function SlidePortfólio() {
                     className="group-hover:scale-110 ease-linear duration-500"
                   />
                 </Link>
+                
                 <div className="invisible group-hover:visible group-hover:bg-black/90 ease-linear duration-300 w-full h-full absolute" />
-                <div className="invisible group-hover:visible text-[#D9D9D9] text-sm absolute uppercase font-semibold">
+                <Link href={slide.url} target="_blank" className="invisible group-hover:visible text-[#D9D9D9] text-sm absolute uppercase font-semibold flex gap-4 hover:text-gray-400 ease-linear duration-150">
                   {slide.url
                     ? "Conheça o projeto 🔥"
                     : "Projeto em andamento 👨‍💻"}
-                </div>
+                    {slide.url && (
+                    <i className="md:text-lg animate-pingarrow">
+                      <MdOutlineArrowForwardIos />
+                    </i>
+                  )}
+                </Link>
               </div>
             </div>
 

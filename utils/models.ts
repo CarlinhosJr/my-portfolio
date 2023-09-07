@@ -38,7 +38,11 @@ export interface Portfolio {
   photo:Media
   projects: Array<{
     title: string;
-    sub_title: string;
+    design:{
+      by: string,
+      property: string,
+      url: string
+    },
     url: string;
     photo: Media;
     techs: Media[];

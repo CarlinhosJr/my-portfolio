@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 //api
 import data from "../../api/data.json";
@@ -30,13 +31,13 @@ export default function SlideMobile() {
 
 
   return (
-    <div className="w-full h-[80%] my-auto flex flex-col justify-center items-center">
+    <div className="w-full h-[80%] my-auto flex flex-col justify-center items-center lg:hidden">
       <div
         ref={sliderRef}
         className="keen-slider"
         onClick={() => setShowOverlay(!showOverlay)}
       >
-        {content.projects.map((slide) => (
+        {content.projects.map((slide, index) => (
           <div
             key={slide.title}
             className="keen-slider__slide number-slide1 flex flex-col justify-center items-center gap-4"
@@ -68,11 +69,11 @@ export default function SlideMobile() {
                   ))}
                 </div>
                 <div className=" text-[#D9D9D9] text-xs md:text-sm  uppercase font-semibold mt-4 flex items-center gap-4">
-                  <span>
+                  <Link href={slide.url} target="_blank">
                     {slide.url
                       ? "Conheça o projeto 🔥"
                       : "Projeto em andamento 👨‍💻"}
-                  </span>
+                  </Link>
                   {slide.url && (
                     <i className="md:text-lg animate-pingarrow">
                       <MdOutlineArrowForwardIos />
@@ -83,7 +84,7 @@ export default function SlideMobile() {
             </div>
             <div className="screen md:w-[60%] text-[#D9D9D9] ">
               <p className="font-bold text-sm">{slide.title}</p>
-              <p className="text-xs md:text-sm font-light">{slide.sub_title}</p>
+              <p className="text-xs md:text-sm font-light">{slide.design.by} <Link href={slide.design.url}>{slide.design.property}</Link></p>
             </div>
           </div>
         ))}

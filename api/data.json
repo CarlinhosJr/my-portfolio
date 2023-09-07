@@ -49,8 +49,12 @@
       "projects": [
         {
           "title": "Procure Imovel / Front-End dev.",
-          "sub_title": "Design por Agência ADE!",
-          "url": "",
+          "design":{
+            "by": "Design by",
+            "property": "agenciaade.com.br",
+            "url": "http://agenciaade.com.br/"
+          },
+          "url": "https://novo-procure-im-vel-frontend.vercel.app/",
           "photo": {
             "src": "/porfólio/procure-imovel.png",
             "alt": ""
@@ -75,8 +79,12 @@
         },
         {
           "title": "Brigata Pizzaria / Front-End dev.",
-          "sub_title": "Design por Agência ADE!",
-          "url": "",
+          "design":{
+            "by": "Design by",
+            "property": "agenciaade.com.br",
+            "url": "http://agenciaade.com.br/"
+          },
+          "url": "https://www.brigatapizzaria.com.br/",
           "photo": {
             "src": "/porfólio/Brigata.png",
             "alt": ""
@@ -101,7 +109,11 @@
         },
         {
           "title": "Gui Ertel / Front-End dev.",
-          "sub_title": "Design por Guilherme Ertel",
+          "design":{
+            "by": "Design by",
+            "property": "Guilherme Ertel",
+            "url": "https://www.linkedin.com/in/guilherme-ertel/"
+          },
           "url": "",
           "photo": {
             "src": "/porfólio/Gui Ertel.png",
@@ -122,8 +134,12 @@
         },
         {
           "title": "Essenza / Front-End dev.",
-          "sub_title": "Design por Agência ADE!",
-          "url": "",
+          "design":{
+            "by": "Design by",
+            "property": "agenciaade.com.br",
+            "url": "http://agenciaade.com.br/"
+          },
+          "url": "https://essenza.miquelao.com.br/",
           "photo": {
             "src": "/porfólio/Essenza.png",
             "alt": ""
@@ -143,8 +159,12 @@
         },
         {
           "title": "Terra Solo / Front-End dev.",
-          "sub_title": "Design por Agência ADE!",
-          "url": "",
+          "design":{
+            "by": "Design by",
+            "property": "agenciaade.com.br",
+            "url": "http://agenciaade.com.br/"
+          },
+          "url": "https://terraseguros.com.br/",
           "photo": {
             "src": "/porfólio/terra solo.png",
             "alt": ""
@@ -164,8 +184,12 @@
         },
         {
           "title": "Oton Engenharia / Front-End dev.",
-          "sub_title": "Design por Agência ADE!",
-          "url": "",
+          "design":{
+            "by": "Design by",
+            "property": "agenciaade.com.br",
+            "url": "http://agenciaade.com.br/"
+          },
+          "url": "https://otonengenharia.com.br/",
           "photo": {
             "src": "/porfólio/oton.png",
             "alt": ""
@@ -195,7 +219,11 @@
         },
         {
           "title": "Thor Watanabe / Front-End dev.",
-          "sub_title": "Design por Agência ADE!",
+          "design":{
+            "by": "Design by",
+            "property": "agenciaade.com.br",
+            "url": "http://agenciaade.com.br/"
+          },
           "url": "https://thor.watanabe.com.br/",
           "photo": {
             "src": "/porfólio/Thor.png",
@@ -226,7 +254,11 @@
         },
         {
           "title": "Projeto em execução / Front-End dev.",
-          "sub_title": "Design by Agência ADE!",
+          "design":{
+            "by": "Design by",
+            "property": "agenciaade.com.br",
+            "url": "http://agenciaade.com.br/"
+          },
           "url": "",
           "photo": {
             "src": "",
@@ -317,12 +349,12 @@
   "footer": {
     "icon": [
       {
-        "link": "",
+        "link": "https://wa.me/5542998361758",
         "src": "/icons-footer/whats.png",
         "alt": "icon whatsapp"
       },
       {
-        "link": "",
+        "link": "https://instagram.com/_luizribeirojr?utm_source=qr&igshid=MzNlNGNkZWQ4Mg==",
         "src": "/icons-footer/insta.png",
         "alt": "icon insta"
       },
@@ -332,7 +364,7 @@
         "alt": "icon linkedin"
       },
       {
-        "link": "",
+        "link": "https://github.com/CarlinhosJr",
         "src": "/icons-footer/git.png",
         "alt": "icon git"
       }

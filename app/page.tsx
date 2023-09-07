@@ -65,7 +65,7 @@ export default function Home() {
       </section>
 
       {/* SECTION PORTFÓLIO */}
-      <section className="relative my-20 h-[60dvh] lg:h-[80vh] xl:h-screen flex ">
+      <section className="relative my-20 h-[60dvh] lg:h-[80vh] xl:h-screen flex scroll-my-40" id="portfolio">
         <div className="absolute  w-full h-full -z-10">
           <Image src={portfolio.photo.src} alt={portfolio.photo.alt} fill className="" />
         </div>

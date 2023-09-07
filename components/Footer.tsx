@@ -26,7 +26,7 @@ export default function Footer() {
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-4 ">
             {footer.icon.map((items) => (
-              <Link key={items.alt} target="_blank" href={''}>
+              <Link key={items.alt} target="_blank" href={items.link}>
               <Image
                 key={items.alt}
                 width={25}

@@ -59,8 +59,8 @@ export default function Header() {
           isScrolled ? "sticky top-0" : ""
         }`}
       >
-        <div className="screen h-full items-center justify-between flex">
-          <div className="flex items-center gap-5">
+        <div className="screen h-full items-center justify-between flex z-50">
+          <div className="flex items-center gap-5 z-50">
             <Link href="/">
               <Image
                 width={150}
@@ -90,7 +90,7 @@ export default function Header() {
           </nav>
 
           {/* HAMBURGER */}
-          <div className=" text-white lg:hidden  ">
+          <div className=" text-white lg:hidden  z-50">
             <Hamburger
               toggled={open}
               toggle={setOpen}
@@ -104,7 +104,7 @@ export default function Header() {
 
       {/* MOBILE */}
       <nav
-        className={`w-full h-full py-20 lg:hidden  fixed top-0 bg-black/90 text-white  font-semibold z-40 ease-linear duration-500  ${
+        className={`w-full h-full pt-32 lg:hidden  fixed top-0 bg-black/90 text-white  font-semibold z-40 ease-linear duration-500   ${
           open ? "translate-x-0" : "translate-x-[-120%]"
         } `}
       >
