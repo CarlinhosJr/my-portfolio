@@ -7,25 +7,13 @@ import data from "../api/data.json";
 
 //icon
 import { FaHeart } from "react-icons/fa";
+import { getDataJson } from "@/utils/api-helpers";
 
-//interface
-interface footer {
-  icon: Array<{
-    link: string
-    src: string;
-    alt: string;
-  }>;
-
-  logo: {
-    src: string;
-    alt: string;
-  };
-  copyright: string;
-}
 
 export default function Footer() {
+
   // get data
-  const content: footer = data.footer;
+  const {footer} = getDataJson()
 
   // get year
   const ano_atual = new Date().getFullYear();
@@ -37,7 +25,7 @@ export default function Footer() {
         {/* ICONS SOCIAIS */}
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-4 ">
-            {content.icon.map((items) => (
+            {footer.icon.map((items) => (
               <Link key={items.alt} target="_blank" href={''}>
               <Image
                 key={items.alt}
@@ -58,8 +46,8 @@ export default function Footer() {
               height={50}
               quality={100}
               priority
-              src={content.logo.src}
-              alt={content.logo.alt}
+              src={footer.logo.src}
+              alt={footer.logo.alt}
             />
           </Link>
         </div>
@@ -70,7 +58,7 @@ export default function Footer() {
         {/* COPYRIGHT */}
         <div className="flex flex-col md:flex-row text-sm md:text-base md:items-center justify-between gap-4 md:gap-0 text-[#D9D9D9]">
           <p>
-            {content.copyright} {ano_atual}
+            {footer.copyright} {ano_atual}
           </p>
           <p className="flex items-center gap-2">
             Feito com muito{" "}

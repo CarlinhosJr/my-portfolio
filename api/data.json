@@ -162,8 +162,6 @@
             }
           ]
         },
-        
-        
         {
           "title": "Oton Engenharia / Front-End dev.",
           "sub_title": "Design por Agência ADE!",
@@ -235,7 +233,7 @@
             "alt": ""
           },
           "techs": [
-            { 
+            {
               "src_mobile": "/porfólio/icons-mobile/nextjs.png",
               "src": "/tecnologias/nextjs.png",
               "alt": "logo next"

@@ -1,20 +1,29 @@
+//next
 import Image from "next/image";
-
-import { getDataJson } from "../utils/api-helpers";
-import ButtonContact from "@/components/ButtonContact";
-
-import { BsSendFill } from "react-icons/bs";
 import Link from "next/link";
+
+// api helper
+import { getDataJson } from "../utils/api-helpers";
+
+//components
+import ButtonContact from "@/components/ButtonContact";
 import DownloadCV from "@/components/DownloadCV";
 import SlidePortfólio from "@/components/portfólio/SlidePortfólio";
 import SlideMobile from "@/components/portfólio/SlideMobile";
 
+//icons
+import { BsSendFill } from "react-icons/bs";
+
 export default function Home() {
+
+  //get data
   const { saudacoes, portfolio, tecnologias, novidades, contato } =
     getDataJson();
 
   return (
     <main>
+
+      {/* SECTION SAUDAÇÕES */}
       <section
         className="relative flex flex-col md:flex-row  md:items-center h-screen"
         id="inicio"
@@ -55,7 +64,7 @@ export default function Home() {
         </div>
       </section>
 
-
+      {/* SECTION PORTFÓLIO */}
       <section className="relative my-20 h-[60dvh] lg:h-[80vh] xl:h-screen flex ">
         <div className="absolute  w-full h-full -z-10">
           <Image src={portfolio.photo.src} alt={portfolio.photo.alt} fill className="" />
@@ -65,6 +74,7 @@ export default function Home() {
         <SlideMobile/>
       </section>
 
+      {/* SECTION TECHS */}
       <section
         className="relative h-[80vh] my-20 md:mt-0 scroll-my-40"
         id="techs"
@@ -101,7 +111,7 @@ export default function Home() {
         </div>
       </section>
 
-
+      {/* SECTION NOVIDADES  */}
       <section className="relative h-[40vh] lg:h-screen flex items-center justify-end  mt-20 md:mt-0">
         <div className="screen lg:flex lg:items-end  lg:justify-end lg:border border-[#004475] rounded-2xl py-20 h-[70%] 2xl:h-[60%]">
           <p className="w-[70%] md:w-1/2 lg:w-[450px] text-2xl md:text-3xl lg:text-[40px] text-[#D9D9D9] font-bold md:leading-[50px]">
@@ -119,6 +129,7 @@ export default function Home() {
         </div>
       </section>
 
+      {/* SECTION CONTATO  */}
       <section
         className="relative py-20  text-[#D9D9D9] scroll-my-52"
         id="contato"

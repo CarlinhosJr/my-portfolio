@@ -15,13 +15,12 @@ import { useScrollPosition } from "@n8tb1t/use-scroll-position";
 import { Slant as Hamburger } from "hamburger-react";
 
 //icon
-import { GoDownload } from "react-icons/go";
 import DownloadCV from "./DownloadCV";
 import { getDataJson } from "@/utils/api-helpers";
 
 
-
 export default function Header() {
+  
   //get data
   const {header} = getDataJson()
 

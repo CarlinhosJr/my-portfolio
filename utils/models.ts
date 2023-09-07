@@ -1,6 +1,6 @@
 // para todas as fotos
 interface MediaAttributes {
-  src_mobile:string
+  src_mobile?:string
   src: string;
   alt: string;
 }
@@ -59,4 +59,18 @@ export interface Novidades {
 export interface Contato {
   text_button: string;
   title: string;
+}
+
+export interface Footer {
+  icon: Array<{
+    link: string
+    src: string;
+    alt: string;
+  }>;
+
+  logo: {
+    src: string;
+    alt: string;
+  };
+  copyright: string;
 }

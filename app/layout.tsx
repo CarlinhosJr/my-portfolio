@@ -1,5 +1,6 @@
-
 import './globals.css'
+
+//next
 import type { Metadata } from 'next'
 
 //fonts
@@ -23,7 +24,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="pt-br">
+    <html lang="en">
       <body className={`${ubuntu.className} bg-black`}>
         <Header/>
         <WhatsApp/>

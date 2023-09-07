@@ -1,27 +1,33 @@
 "use client";
+
 import React, { useState } from "react";
-
-import data from "../../api/data.json";
-
-import { useKeenSlider } from "keen-slider/react";
-import "keen-slider/keen-slider.min.css";
 import Image from "next/image";
 
+//api
+import data from "../../api/data.json";
+
+//slide
+import { useKeenSlider } from "keen-slider/react";
+import "keen-slider/keen-slider.min.css";
+
+//icons
 import { MdOutlineArrowForwardIos, MdOutlineArrowBackIos,
    } from "react-icons/md";
 
+
 export default function SlideMobile() {
+
+  //get data
   const content = data.page.portfolio;
 
+  //config slide
   const [sliderRef, instanceRef] = useKeenSlider<HTMLDivElement>({
     loop: true,
   });
 
+  // show overlay
   const [showOverlay, setShowOverlay] = useState<boolean>(false);
 
-  const handleClick = () => {
-    setShowOverlay(true);
-  };
 
   return (
     <div className="w-full h-[80%] my-auto flex flex-col justify-center items-center">

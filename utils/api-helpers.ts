@@ -1,5 +1,5 @@
 import data from "../api/data.json";
-import { Contato, Document, Header, Novidades, Portfolio, Saudacoes, Techs } from "./models";
+import { Contato, Document, Header, Novidades, Portfolio, Saudacoes, Techs, Footer } from "./models";
 
 export function getDataJson() {
   const header: Header = data.header
@@ -9,6 +9,7 @@ export function getDataJson() {
   const novidades: Novidades = data.page.novidades;
   const contato: Contato = data.page.contact;
   const document: Document = data.document
+  const footer: Footer = data.footer
 
   return {
    header,
@@ -17,7 +18,9 @@ export function getDataJson() {
    tecnologias,
    novidades,
    contato,
-   document
+   document,
+   footer
+
   };
 
 }

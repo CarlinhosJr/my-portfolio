@@ -4,9 +4,9 @@
 import data from "../../api/data.json";
 
 import React, { useState, useEffect } from "react";
-
 import Image from "next/image";
 
+//icons
 import {
   MdOutlineArrowBackIos,
   MdOutlineArrowForwardIos,
@@ -17,29 +17,25 @@ export default function SlidePortfólio() {
   // get data
   const content = data.page.portfolio;
 
+  // handle change portfólio
   const [startIndex, setStartIndex] = useState(0);
 
+  //number init portfólio
   const numImagesToShow = 2;
 
+  //funcition change portfólio
   const nextImages = () => {
     if (startIndex + numImagesToShow < content.projects.length) {
       setStartIndex((prevIndex) => prevIndex + numImagesToShow);
     }
   };
-
+  
+  //funcition back portfólio
   const prevImages = () => {
     if (startIndex > 0) {
       setStartIndex((prevIndex) => prevIndex - numImagesToShow);
     }
   };
-
-  //   useEffect(() => {
-  //     const interval = setInterval(nextImages, 5000); // Trocar de imagem a cada 5 segundos
-
-  //     return () => {
-  //       clearInterval(interval);
-  //     };
-  //   },);
 
   return (
     <div
