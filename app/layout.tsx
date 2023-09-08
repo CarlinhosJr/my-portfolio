@@ -15,6 +15,7 @@ const ubuntu = Ubuntu({weight: "400", subsets:['latin']})
 
 export const metadata: Metadata = {
   title: 'Luiz Junior | Dev',
+  description: 'Web developer',
 }
 
 export default function RootLayout({
