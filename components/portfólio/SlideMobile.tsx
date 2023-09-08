@@ -31,7 +31,7 @@ export default function SlideMobile() {
 
 
   return (
-    <div className="w-full h-[80%] my-auto flex flex-col justify-center items-center lg:hidden">
+    <div className="w-full h-[80%] my-auto flex flex-col md:justify-center items-center lg:hidden">
       <div
         ref={sliderRef}
         className="keen-slider"
@@ -91,7 +91,7 @@ export default function SlideMobile() {
       </div>
 
       {/* BUTTONS NAVIGATION */}
-      <div className="mt-10 flex items-center gap-6">
+      <div className="mt-20 flex items-center gap-6">
         <button
           className=""
           onClick={(e: any) => e.stopPropagation() || instanceRef.current?.prev()}

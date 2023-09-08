@@ -28,7 +28,7 @@ export default function Home() {
         className="relative flex flex-col md:flex-row  md:items-center h-screen"
         id="inicio"
       >
-        <div className="relative w-full h-[400px] block md:hidden">
+        <div className="relative w-full h-[500px] block md:hidden">
           <Image
             src={saudacoes.photo_mobile.src}
             alt={saudacoes.photo.alt}
@@ -65,8 +65,8 @@ export default function Home() {
       </section>
 
       {/* SECTION PORTFÓLIO */}
-      <section className="relative my-20 h-[60dvh] lg:h-[80vh] xl:h-screen flex scroll-my-40" id="portfolio">
-        <div className="absolute  w-full h-full -z-10">
+      <section className="relative mt-20  h-[60vh] lg:h-[80vh] xl:h-screen flex scroll-my-40" id="portfolio">
+        <div className="absolute  w-full h-[400px] md:h-full -z-10">
           <Image src={portfolio.photo.src} alt={portfolio.photo.alt} fill className="" />
         </div>
 
@@ -76,7 +76,7 @@ export default function Home() {
 
       {/* SECTION TECHS */}
       <section
-        className="relative h-[80vh] my-20 md:mt-0 scroll-my-40"
+        className="relative h-[80vh] md:my-20 scroll-my-40"
         id="techs"
       >
         <div className="screen pt-10 md:pt-[100px]">
@@ -100,7 +100,7 @@ export default function Home() {
             ))}
           </div>
         </div>
-        <div className="absolute top-0 w-full h-full  -z-10">
+        <div className="absolute top-0 w-full h-[85%] md:h-full  -z-10">
           <Image
             src={tecnologias.photo.src}
             alt={tecnologias.photo.alt}
@@ -112,7 +112,7 @@ export default function Home() {
       </section>
 
       {/* SECTION NOVIDADES  */}
-      <section className="relative h-[40vh] lg:h-screen flex items-center justify-end  mt-20 md:mt-0">
+      <section className="relative h-[40vh] lg:h-screen flex items-center justify-end ">
         <div className="screen lg:flex lg:items-end  lg:justify-end lg:border border-[#004475] rounded-2xl py-20 h-[70%] 2xl:h-[60%]">
           <p className="w-[70%] md:w-1/2 lg:w-[450px] text-2xl md:text-3xl lg:text-[40px] text-[#D9D9D9] font-bold md:leading-[50px]">
             {novidades.text}

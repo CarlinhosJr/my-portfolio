@@ -61,10 +61,9 @@ export default function Header() {
       >
         <div className="screen h-full items-center justify-between flex z-50">
           <div className="flex items-center gap-5 z-50">
-            <Link href="/">
+            <Link href="/" className="relative w-[155px] h-[45px]">
               <Image
-                width={150}
-                height={42}
+                fill
                 quality={100}
                 priority
                 src={header.logo.src}
