@@ -27,7 +27,7 @@ export default function SlideMobile() {
   });
 
   // show overlay
-  const [showOverlay, setShowOverlay] = useState<boolean>(false);
+  const [showOverlay, setShowOverlay] = useState<boolean>(true);
 
 
   return (
