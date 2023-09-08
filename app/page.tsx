@@ -45,7 +45,7 @@ export default function Home() {
               {saudacoes.title}
             </h1>
             <h2 className=" md:text-lg lg:text-xl">{saudacoes.sub_title}</h2>
-            <p className=" md:w-[325px] mt-4 text-xs md:text-sm lg:text-base ">
+            <p className=" md:w-[350px] mt-4 text-xs md:text-sm lg:text-base ">
               {saudacoes.about_me}
             </p>
             <ButtonContact />

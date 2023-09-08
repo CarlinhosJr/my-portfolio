@@ -35,7 +35,7 @@ export default function Footer() {
                 priority
                 src={items.src}
                 alt={items.alt}
-                className="hover:text-gray-400  lg:grayscale hover:grayscale-0 ease-linear duration-300 brightness-125 hover:brightness-100"
+                className="hover:text-gray-400  grayscale hover:grayscale-0 ease-linear duration-300 lg:brightness-125 hover:brightness-100"
               /></Link>
             ))}
           </div>
